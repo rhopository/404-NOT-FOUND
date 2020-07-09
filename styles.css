@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 1200px;
+  height: 850px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 65px;
+  width: 500px;
+  letter-spacing: 1.5Spx;
+}
+
+p {
+  font-family: 'Comfortaa', cursive;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.child-position {
+  position: relative;
+  top: 20%;
+}
+
+.child1 {
+  flex: 1;
+}
+
+.child2 {
+  margin-right: 20px;
+}
+
+.b-news {
+  position: relative;
+  width: 275px;
+  font-size: 20px;
+  line-height: 28pt;
+}
+
+button {
+   position: relative;
+   top: 20px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   margin:2px 0;
+   border: solid 1px transparent;
+   border-radius: 1px;
+   color: #ffffff;
+   background-color: black;
+   padding: 1em 2em;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+img {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 500px;
+  height: auto;
+}
+
+.not-found {
+  position: relative;
+  left: 5%;
+  top: 3%;
+}
+
+footer { 
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  text-align: center;
+  bottom: -350px;
+}
+
+@media (min-width 950px) {
+  .card {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+}
+
